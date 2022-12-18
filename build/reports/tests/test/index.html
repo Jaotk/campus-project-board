@@ -20,7 +20,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">4</div>
+<div class="counter">13</div>
 <p>tests</p>
 </div>
 </td>
@@ -32,13 +32,13 @@
 </td>
 <td>
 <div class="infoBox" id="ignored">
-<div class="counter">0</div>
+<div class="counter">8</div>
 <p>ignored</p>
 </div>
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.267s</div>
+<div class="counter">0.270s</div>
 <p>duration</p>
 </div>
 </td>
@@ -47,7 +47,7 @@
 </div>
 </td>
 <td>
-<div class="infoBox success" id="successRate">
+<div class="infoBox skipped" id="successRate">
 <div class="percent">100%</div>
 <p>successful</p>
 </div>
@@ -58,13 +58,53 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Packages</a>
+<a href="#tab0">Ignored tests</a>
 </li>
 <li>
-<a href="#tab1">Classes</a>
+<a href="#tab1">Packages</a>
+</li>
+<li>
+<a href="#tab2">Classes</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
+<h2>Ignored tests</h2>
+<ul class="linkList">
+<li>
+<a href="classes/com.example.projectboard.controller.ArticleControllerTest.html">View 컨트롤러 - 게시글</a>.
+<a href="classes/com.example.projectboard.controller.ArticleControllerTest.html#givenNothing_whenRequestingArticleHashTagSearchView_thenReturnsArticleHashTagSearchView()">[view][GET} 게시글 해시태그 검색 페이지 - 정상 호출</a>
+</li>
+<li>
+<a href="classes/com.example.projectboard.controller.ArticleControllerTest.html">View 컨트롤러 - 게시글</a>.
+<a href="classes/com.example.projectboard.controller.ArticleControllerTest.html#givenNothing_whenRequestingArticleSearchView_thenReturnsArticleSearchView()">[view][GET} 게시글 검색 전용 페이지 - 정상 호출</a>
+</li>
+<li>
+<a href="classes/com.example.projectboard.controller.ArticleControllerTest.html">View 컨트롤러 - 게시글</a>.
+<a href="classes/com.example.projectboard.controller.ArticleControllerTest.html#givenNothing_whenRequestingArticleView_thenReturnsArticleView()">[view][GET} 게시글 상세 페이지 - 정상 호출</a>
+</li>
+<li>
+<a href="classes/com.example.projectboard.controller.ArticleControllerTest.html">View 컨트롤러 - 게시글</a>.
+<a href="classes/com.example.projectboard.controller.ArticleControllerTest.html#givenNothing_whenRequestingArticlesView_thenReturnsArticlesView()">[view][GET} 게시글 레스트 (게시판) 페이지 - 정상 호출</a>
+</li>
+<li>
+<a href="classes/com.example.projectboard.controller.DataRestTest.html">Data REST - API TEST</a>.
+<a href="classes/com.example.projectboard.controller.DataRestTest.html#givenNothing_whenRequestingArticleComment_thenReturnsArticleCommentJsonResponse()">[api] 댓글 단건 조회</a>
+</li>
+<li>
+<a href="classes/com.example.projectboard.controller.DataRestTest.html">Data REST - API TEST</a>.
+<a href="classes/com.example.projectboard.controller.DataRestTest.html#givenNothing_whenRequestingArticleComments_thenReturnsArticleCommentsJsonResponse()">[api] 게시글 -&gt; 댓글 조회</a>
+</li>
+<li>
+<a href="classes/com.example.projectboard.controller.DataRestTest.html">Data REST - API TEST</a>.
+<a href="classes/com.example.projectboard.controller.DataRestTest.html#givenNothing_whenRequestingArticle_thenReturnsArticleJsonResponse()">[api] 게시글 단건 조회</a>
+</li>
+<li>
+<a href="classes/com.example.projectboard.controller.DataRestTest.html">Data REST - API TEST</a>.
+<a href="classes/com.example.projectboard.controller.DataRestTest.html#givenNothing_whenRequestingArticles_thenReturnsArticlesJsonResponse()">[api] 게시글 리스트 조회</a>
+</li>
+</ul>
+</div>
+<div id="tab1" class="tab">
 <h2>Packages</h2>
 <table>
 <thead>
@@ -80,18 +120,38 @@
 <tbody>
 <tr>
 <td class="success">
+<a href="packages/com.example.projectboard.html">com.example.projectboard</a>
+</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0.068s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="skipped">
+<a href="packages/com.example.projectboard.controller.html">com.example.projectboard.controller</a>
+</td>
+<td>8</td>
+<td>0</td>
+<td>8</td>
+<td>0s</td>
+<td class="skipped">-</td>
+</tr>
+<tr>
+<td class="success">
 <a href="packages/com.example.projectboard.repository.html">com.example.projectboard.repository</a>
 </td>
 <td>4</td>
 <td>0</td>
 <td>0</td>
-<td>0.267s</td>
+<td>0.202s</td>
 <td class="success">100%</td>
 </tr>
 </tbody>
 </table>
 </div>
-<div id="tab1" class="tab">
+<div id="tab2" class="tab">
 <h2>Classes</h2>
 <table>
 <thead>
@@ -107,12 +167,42 @@
 <tbody>
 <tr>
 <td class="success">
+<a href="classes/com.example.projectboard.CampusProjectBoardApplicationTests.html">com.example.projectboard.CampusProjectBoardApplicationTests</a>
+</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0.068s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="skipped">
+<a href="classes/com.example.projectboard.controller.ArticleControllerTest.html">com.example.projectboard.controller.ArticleControllerTest</a>
+</td>
+<td>4</td>
+<td>0</td>
+<td>4</td>
+<td>0s</td>
+<td class="skipped">-</td>
+</tr>
+<tr>
+<td class="skipped">
+<a href="classes/com.example.projectboard.controller.DataRestTest.html">com.example.projectboard.controller.DataRestTest</a>
+</td>
+<td>4</td>
+<td>0</td>
+<td>4</td>
+<td>0s</td>
+<td class="skipped">-</td>
+</tr>
+<tr>
+<td class="success">
 <a href="classes/com.example.projectboard.repository.JpaRepositoryTest.html">com.example.projectboard.repository.JpaRepositoryTest</a>
 </td>
 <td>4</td>
 <td>0</td>
 <td>0</td>
-<td>0.267s</td>
+<td>0.202s</td>
 <td class="success">100%</td>
 </tr>
 </tbody>
@@ -126,7 +216,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.5.1</a> at Dec 15, 2022, 2:54:47 PM</p>
+<a href="http://www.gradle.org">Gradle 7.5.1</a> at Dec 18, 2022, 4:40:44 PM</p>
 </div>
 </div>
 </body>
