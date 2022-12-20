@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <title>게시판 페이지</title>
 </head>
 
 <body>
-  <header th:replace="~{header :: header}"></header>
+  <header id="header"></header>
 
   <main>
     <form>
       <label for="search-type" hidden>유형</label>
-      필터 : 제목, 본문, id, 닉네임, 해시태그
       <select id="search-type" name="search-type">
         <option>제목</option>
         <option>본문</option>
@@ -69,7 +68,7 @@
     </nav>
   </main>
 
-  <footer th:replace="footer :: footer"></footer>
+  <footer id="footer"></footer>
 
 </body>
 </html>
