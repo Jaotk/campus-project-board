@@ -998,3 +998,6 @@ insert into article (title, content, hashtag, created_by, modified_by, created_a
 insert into article (title, content, hashtag, created_by, modified_by, created_at, modified_at) values ('Aliquam sit amet diam in magna bibendum imperdiet.', 'Fusce consequat. Nulla nisl. Nunc nisl.', 'Fuscia', 'Deina', 'Wendel', '2021-05-02 16:01:02', '2021-01-28 00:00:00');
 insert into article (title, content, hashtag, created_by, modified_by, created_at, modified_at) values ('Vestibulum sed magna at nunc commodo placerat.', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 'Green', 'Renaldo', 'Teador', '2021-07-28 04:06:43', '2021-01-28 00:00:00');
 insert into article (title, content, hashtag, created_by, modified_by, created_at, modified_at) values ('Nulla facilisi.', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 'Purple', 'Jory', 'Brendis', '2022-01-19 02:21:23', '2021-01-28 00:00:00');
+## comments ##
+
+
