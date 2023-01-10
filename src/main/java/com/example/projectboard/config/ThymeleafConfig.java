@@ -31,6 +31,7 @@ public class ThymeleafConfig {
          */
         private final boolean decoupledLogic;
 //123123123
+        //123123123
     }
 
 }
